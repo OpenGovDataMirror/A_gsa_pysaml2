@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pysaml2 = {path = "."}
+
+[dev-packages]
+coverage = "*"
+mock = "*"
+pyasn1 = "*"
+pymongo = "*"
+pytest = "*"
+pytest-cov = "*"
+responses = "*"
+
+[requires]
+python_version = "2.7"
